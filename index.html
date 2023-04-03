@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca Sosa</title>
+</head>
+<body>
+ 
+  <h1>Ejercicio 5</h1>
+  <form action="convertir dolares a pesos">
+  <h2>Convertir dólares a pesos</h2>
+ <label for="dolares">Ingrese cantidad de dolares</label>
+ <input type="number" id=dolares name="dolares"><br>
+ <label for="pesos">Cantidad de pesos</label>
+ <input type="" id=inputpesos name="pesos" readonly>
+ <br><br>
+ <input type="button" value="calcular" 
+ onclick="mostrarresultado()" id="resultado"> <br>
+</form>
+ <br>
+<form action="convertir pesos a dolares">
+ <h2>Convertir pesos a dólares</h2>
+ <label for="pesos">Ingrese cantidad de pesos</label>
+ <input type="number" id=pesos name="pesos"> <br><br>
+ <label for="dolares">Cantidad de dolares</label>
+ <input type="none" id=inputdolares name="dolares"readonly >
+ <input type="button" value="calcular" 
+ onclick="mostrarresultado2()" id="resultado2"> 
+</form>
+ <br>
+<br>
+
+ <form action="covertir gradosC a F">
+ <h2>Convertir grados centígrados a grados Fahrenheit</h2>
+ <label for="gradosc">Grados Centigrados</label>
+ <input type="number" id= inputgradoc name="gradoscen"> <br><br>
+ <label for="gradosf">Grados Fahrenheit</label>
+ <input type="none" id=inputgradof name="gradosfa"readonly >
+ <input type="button" value="convertir" 
+ onclick="mostrargrados()" id="resultadogrado"> <br>
+</form>
+<br>
+
+ <form action="formulario">
+ <h2>Formulario</h2>
+<label for="nombre">Nombre del cliente</label>
+<input type="nombre" id="nombrecliente" name="nombrecliente"><br><br>
+<label for="material">Material de la caja</label>
+<select name="material" id="material">
+  <option value="madera">madera</option>
+  <option value="carton">cartón</option>
+  <option value="papel">papel</option>
+  <option value="acero">acero</option>
+</select><br><br>
+<label for="dimensiones">Seleccione una dimensión de la caja</label> <br>
+<input type="radio" id="diminuta" name="dimensiones" value="diminuta">diminuta
+<input type="radio" id="mediana" name="dimensiones" value="mediana"> mediana 
+<input type="radio" id="grande" name="dimensiones" value="grande">grande
+<br> <br>
+<input type="button" value="Enviar">
+
+</form>
+<br>
+<h2>Adivine el número del 0 al 5</h2>
+<input type="text" id="inputusuario">
+<input type="button" value="Enviar" id="botonenviarnum">
+<p id="respuesta"></p>
+</form>
+<br>
+<h2>nombres aleatorios</h2>
+<input type="text" id="inputlistadesordenada">
+<input type="button" value="agregar" id="agregarnombre">
+<ul id="listadesordenadanombres">
+  
+ 
+</ul>
+
+<footer></footer>
+<script src="index.js"></script>
+</body>
+
+</html>
